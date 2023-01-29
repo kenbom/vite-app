@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import ButtonExercise from "./components/ButtonExercise"
 import CardExercise from "./components/CardExercise"
+import GridExercise from './components/GridExercise'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
     </div>
     <ButtonExercise/>
     <CardExercise />
+    <GridExercise />
     
     </>
   )
